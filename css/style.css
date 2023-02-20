@@ -1,0 +1,43 @@
+
+#title{
+    margin-top: 32px;
+    margin-left: 24px;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.15rem;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.bg_subheader{
+    max-height: 40px;
+    
+
+background: #981E1E;
+
+}
+
+.main_photo{
+    min-height: 960px;
+    background-image: url(/img/щк\ 1.png);
+}
+
+.swiper-slide{
+    user-select: none;
+}
+
+
+
+
+.subfooter{
+    
+    width: 100%;
+    margin-top: 50px;
+    min-height: calc(50vh - 10px);
+    
+    background: #C69F78;
+    z-index: 11;
+}
