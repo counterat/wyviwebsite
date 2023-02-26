@@ -1,0 +1,117 @@
+
+#title{
+  position: absolute;
+    top: 30%;
+    left: 20%;   
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.25vw;
+line-height: 1.25vw;
+
+color: #000000;
+
+}
+
+.subheader{
+    
+    
+
+background: #981E1E;
+
+}
+
+.main_photo{
+    min-height: 80%;
+    background-image: url(/img/щк\ 1.png);
+}
+
+.swiper-slide{
+    user-select: none;
+}
+
+
+
+
+.subfooter{
+    
+    width: 100%;
+
+    flex: 0 0 auto;
+    height: 38%;
+    background: #C69F78;
+    z-index: 11;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+
+.main_about{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    margin-top: 2%;
+    background: url(/img/Picsart_23-02-20_15-05-20-851.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide img{
+    width: 50%;
+    object-fit: cover;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #F1D8BE;
+
+    /* Center slide text vertically */
+   
+    justify-content: center;
+   
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.img-subtext{
+    font-family: 'PT Serif';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 3rem;
+      white-space: nowrap;
+      /* identical to box height */
+      
+      
+      color: #422712;
+}
+
+.img-carousel{
+    border-radius: 29px;
+    object-fit: cover;
+    
+}
+
+
+.attention_img{
+  background: url(/img/image\ 19.png)  no-repeat  ;
+  position: relative;
+  margin-left: -2%;
+  margin-right: -2%;
+  width: 102%;
+  height: 70%;
+  margin-top: 2%;
+}
