@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4357px" height="2000px" viewBox="0 0 4356 2000" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="4356" height="2000" style="fill:rgb(0%,0%,0%);fill-opacity:0.25098;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="4356" height="2000"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(60.784314%,73.72549%,80%);fill-opacity:1;" d="M 2167.382812 6.410156 C 1328.460938 -48.75 696.171875 273.835938 0 142.15625 L 0 1867.945312 C 741.125 2122.507812 1618.375 1944.183594 2200.6875 1867.945312 C 2893.128906 1777.292969 3460.609375 1690.15625 4356 1867.945312 L 4356 142.15625 C 3649.207031 415.652344 3051.433594 64.539062 2167.382812 6.410156 Z M 2167.382812 6.410156 "/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+</g>
+</svg>
