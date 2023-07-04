@@ -10,7 +10,7 @@ h1{
     font-family: 'Antic Didone', serif; font-size: 119px; color: #37495E; z-index: 2;
 }
 
-#open{
+body  header  div.row div  #open{
     text-transform: uppercase; font-family: 'Antic Slab', serif; margin-top: 0; font-size: 23px; color: #37495D;
 
     
