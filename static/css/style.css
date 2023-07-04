@@ -1,0 +1,195 @@
+.nav{
+    font-family: 'Bitter', sans-serif;
+    font-size: 20px;
+    color: #37495D;
+    white-space: nowrap;
+    padding-left: 5px;
+}
+
+h1{
+    font-family: 'Antic Didone', serif; font-size: 119px; color: #37495E; z-index: 2;
+}
+
+#aboutus{
+    font-family: 'Antic Didone', serif; font-size: 93px; color: #152638; z-index: 2;
+}
+.img-nav{
+    float: left; padding-top: 10px;
+}
+a:hover {
+    text-decoration-color: #37495D; /* Замените "red" на желаемый цвет */
+  }
+
+.whyus{
+    font-family: 'Bad Script', serif; font-size: 26px; position: absolute; color: #152638;
+}
+
+#whyus{
+    transform: scale(0.75) translateY(-150px); padding-top: -1000px;
+}
+.whyus_line{
+    position: absolute;  width: 50px; aspect-ratio: 1/1;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+#price_h2{
+    font-family: 'Josefin Slab', serif; font-size: 96px; color: #37495D;
+}
+
+.price_card{
+    margin-top: 100px;
+    background: linear-gradient(to right,#ABC6E5, #E6EFFB);
+    border:  2px solid #8AAFDA;
+    min-height: 205px;
+    border-radius: 8%;
+    padding-bottom: 18px;
+
+    width: 340px;
+    
+}
+
+.title_card{
+    color: #2C4762;
+    font-family: 'Bitter', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px; /* Отступ слева */
+    padding-right: 20px; /* Отступ справа */
+    word-wrap: break-word;
+    font-weight:900 ;
+}
+
+.text_card{
+    color: #37495D;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight:200 ;
+    margin-left: 20px
+    ;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px; /* Отступ слева */
+  padding-right: 20px; /* Отступ справа */
+  word-wrap: break-word;
+}
+
+.price{
+    color: #2C4762;
+    font-family: 'Bitter', sans-serif;
+    font-size: 20px;
+    font-weight:200 ;
+    
+    padding-left: 10px;
+    position: relative;
+    margin-left: 20px; /* Отступ слева */
+  padding-right: 20px; /* Отступ справа */
+  word-wrap: break-word;
+    
+}
+
+.down{
+    margin-top: 55px;
+   
+}
+
+
+
+.first{
+    margin-left: 11%;
+}
+
+.price_card {
+    position: relative;
+    padding-bottom: 33px; /* Увеличьте значение, если требуется больше отступа */
+}
+
+.price {
+    position: absolute;
+    bottom: 15px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+
+#meister{
+    top: -50px;
+    left: -280px;
+}
+
+@media only screen and (min-width: 1200px) {
+  #declaration{
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+    #declaration{
+        margin-left: 30px;
+      }
+    
+}
+
+
+
+@media only screen and (max-width: 992px) {
+   
+   body  header  div.row  div  h1{
+    font-size: 91px;
+   }
+   #aboutus{
+    font-size: 68px;
+   }
+   p{
+    font-size: 16px;
+   }
+   #price_h2{
+    font-size: 68px;
+   } 
+   #whyus{
+    transform: scale(0.65) translateY(-150px);
+   }
+   .price_card{
+    margin-top: 50px;
+}
+}
+
+@media (max-width: 768px) {
+    /* Стили для ширины до 762 пикселей */
+    #logo {
+      flex: 0 0 auto;
+    }
+    .col-md-12 {
+      flex: 1 1 100%;
+      max-width: 100%;
+      text-align: left;
+      
+    }
+
+    body  header  div.row  div  h1{
+        font-size: 68px;
+    }
+    #aboutus{
+        font-size: 59px;
+    }
+    #price_h2{
+        font-size: 59px;
+    }
+    
+    .price_card{
+        margin-top: 50px;
+    }
+
+    .nav{
+        font-size: 18px;
+    }
+
+  }
+
+@media (max-width:695px)  {
+   
+}
+  
