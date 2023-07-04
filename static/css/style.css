@@ -10,6 +10,12 @@ h1{
     font-family: 'Antic Didone', serif; font-size: 119px; color: #37495E; z-index: 2;
 }
 
+#open{
+    text-transform: uppercase; font-family: 'Antic Slab', serif; margin-top: 0; font-size: 23px; color: #37495D;
+
+    
+}
+
 #aboutus{
     font-family: 'Antic Didone', serif; font-size: 93px; color: #152638; z-index: 2;
 }
@@ -155,6 +161,9 @@ ul{
    .price_card{
     margin-top: 50px;
 }
+     #open{
+        font-size:20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -187,6 +196,9 @@ ul{
         font-size: 18px;
     }
 
+    #open{
+        font-size:16px;
+    }
   }
 
 @media (max-width:695px)  {
