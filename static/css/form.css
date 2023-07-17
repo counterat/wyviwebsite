@@ -1,0 +1,49 @@
+
+
+form{
+    padding-left: 3.2%;
+    padding-right:  3.2%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.input, select{
+    background-color:  rgba(244, 239, 235, 0.5);
+    border-radius: 15px;
+    border: 1px white solid;
+    height: 80px;
+}
+.form-group{
+    display: inline-block;
+    
+    width: 44.9%;
+}
+
+input::placeholder, textarea::placeholder{
+    color: white;
+    font-family: 'Bitter', serif;
+}
+  
+select.form-control:not([size]):not([multiple]) {
+    height: 80px;
+  }
+
+
+option{
+    font-family: 'Bitter', serif;
+}
+
+#message{
+    width:100%;
+}
+
+#btn-form{
+    background-color:  rgba(244, 239, 235, 0.5);
+    border-radius: 15px;
+    border: 1px white solid;
+    width: 44.9%;
+    height: 80px;
+    font-size: 26px;
+
+    font-family: 'Bitter', serif;
+}

@@ -1,0 +1,365 @@
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animated-text {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+ul
+{
+  margin-top: auto;
+}
+
+h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: animated-text 2s ease, fade-in 2s forwards;
+}
+.header_list{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+   /*  list-style-image: url("/static/img/Arrow\ 1\ \(1\).svg"); */
+    font-family: 'Bitter', serif;
+
+}
+
+
+a:hover {
+  text-decoration-color: #37495D; /* Замените "red" на желаемый цвет */
+}
+
+a{
+  color: #37495D;
+}
+
+
+.nav-item{
+  color: #37495D;
+/*   margin-left: 30px; */
+  font-size: 20px;
+  white-space: nowrap;
+  animation: fadeSlideIn 2s ease-in-out;
+}
+
+header{
+  background: url(/static/img/bg\ \(6\).svg) center bottom/cover no-repeat;
+  min-height: 120px;
+
+}
+
+
+#stages{
+  font-size: 52px;
+  font-family: 'Bitter', serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #37495D;
+
+}
+
+.stages_list{
+  list-style-image: url(/static/img/Arrow\ 6.svg);
+  margin-left: 21.4%;
+}
+
+h2{
+  font-family: 'Bitter', serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #202C3A;
+}
+p{
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #202C3A;
+}
+
+.stages_list li{
+  margin-top: 50PX;
+}
+
+ .nav-item{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;;
+ }
+ .nav-item:hover{
+   
+    transform: scale(1.1); /* Увеличение масштаба на 10% */
+  
+ }
+
+
+
+.scale-animation {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.scale-animation.animate {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@keyframes scaleEffect {
+  0% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+
+@keyframes colorEffect {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes fadeEffect {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes rotateEffect {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+#semi-round{
+  background-color: #152638; width: 200px; aspect-ratio: 2/1;  border-radius: 50% / 100% 100% 0 0;  overflow: hidden; transform: rotate(-90deg); opacity: 0.7; position: absolute; right: -74px; top: 650px;
+}
+
+#wyvi {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: -15px;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+#wyvi:hover {
+  animation: shake-animation 0.5s;
+}
+
+@keyframes shake-animation {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1380px){
+  
+
+  #semi-round{
+    width: 200px
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px){
+  
+  .container{
+    width: 90%;
+    max-width: none;
+  }
+
+  #semi-round{
+    width: 200px
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container{
+    width: 90%;
+    max-width: none;
+  }
+  .stages_list{
+    margin-left: 14.4%;
+  }
+  .header_list > :not(:first-child) {
+    /* Стили для дочерних элементов, кроме первого */
+  
+
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .container{
+    width: 90%;
+    max-width: none;
+  }
+  .stages_list{
+    margin-left: 13.4%;
+  }
+  footer{
+    margin-top: 103px;
+  }
+}
+
+
+@media only screen and (min-width: 576px) {
+  .container{
+    width: 90%;
+    max-width: none;
+  }
+  footer{
+    margin-top: 103px;
+  }
+  .stages_list{
+    margin-left: 1.4%;
+  }
+}
+
+
+@media only screen and (min-width:1200px)
+{
+.container{
+  width: 90%;
+  max-width: none;
+}
+
+  .header_list{
+  
+    display: flex;
+    align-items: start;
+  justify-content: space-between;
+/*       list-style-image: url("/static/img/Arrow\ 1\ \(1\).svg"); */
+      font-family: 'Bitter', serif;
+  
+  }
+  
+.nav-link{
+  padding-top: 12px;
+}
+
+  a:hover {
+    text-decoration-color: #37495D; /* Замените "red" на желаемый цвет */
+  }
+  
+  a{
+    color: #37495D;
+  }
+  
+  
+  .nav-item{
+    color: #37495D;
+
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  
+  header{
+    background: url(/static/img/bg\ \(6\).svg) center bottom/cover no-repeat;
+    min-height: 110px;
+  }
+  .header_list > :not(:first-child) {
+    /* Стили для дочерних элементов, кроме первого */
+  
+
+  }
+  
+  #stages{
+    font-size: 52px;
+    font-family: 'Bitter', serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #37495D;
+  
+  }
+  
+  .stages_list{
+    list-style-image: url(/static/img/Arrow\ 6.svg);
+    margin-left: 21.4%;
+  }
+  
+  h2{
+    font-family: 'Bitter', serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #202C3A;
+  }
+  p{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #202C3A;
+  }
+  
+  .stages_list li{
+    margin-top: 50PX;
+  }
+
+  footer{
+    margin-top: 150px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .container{
+    width: 90%;
+    max-width: none;
+  }
+  footer{
+    margin-top: 103px;
+  }
+  .stages_list{
+    margin-left: 1.4%;
+  }
+  #semi-round{
+    width: 0;
+  }
+  h1#stages{
+    font-size: 31px;
+  }
+}
